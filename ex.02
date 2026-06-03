@@ -1,0 +1,7 @@
+let num =[]
+let numUsuario
+for(let i =0; i<=5; i++){
+    numUsuario = Number(prompt("digite um numero"))
+    num.push(numUsuario)
+}
+alert("os numeros sao: "+ num)
