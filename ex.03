@@ -1,0 +1,7 @@
+let numUsuario
+let soma = 0
+for(let i =0; i<=5; i++){
+    numUsuario = Number(prompt("digite um numero"))
+    soma += numUsuario
+}
+alert("a soma dos numeros fica em " + soma)
