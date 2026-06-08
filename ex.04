@@ -1,0 +1,13 @@
+const num =[]
+let numUsuario
+contador = 0
+let media
+let soma = 0
+do{
+    numUsuario = Number(prompt("type a number"))
+    num.push(numUsuario)
+    soma += numUsuario
+    contador++
+}while(contador<5)
+media = soma / num.length
+alert(`a media dos numeros ${num} e ${media}`)
