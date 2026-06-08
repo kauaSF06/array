@@ -1,0 +1,11 @@
+let numUsuario
+let numerosx2=[]
+let numeros = []
+for(let i = 0; i<5; i++){
+    numUsuario = Number(prompt("digite um numero"))
+    numeros.push(numUsuario)
+    numerosx2.push(numUsuario * 2)
+   
+    
+}
+alert(`os numeros ${numeros} multiplicados por 2 ${numerosx2}`)
