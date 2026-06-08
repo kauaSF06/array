@@ -1,0 +1,9 @@
+let numeros = []
+let NumUsuario
+for(let i = 0; i<5; i++){
+    NumUsuario = Number(prompt(" digite um numero ai man"))
+    if(NumUsuario  % 2 == 0){
+        numeros.push(NumUsuario)
+    }
+}
+alert(`dos numeros digitados acima os pares sao : [ ${numeros} ]`)
