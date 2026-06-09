@@ -1,0 +1,5 @@
+let vetor = []
+let numUsuario
+for(let i =0; i<5; i++){
+    vetor[i] = i*2
+}alert(`o resultado e ${vetor}`)
