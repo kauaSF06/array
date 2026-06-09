@@ -1,0 +1,7 @@
+let numeros = []
+let numUsuario
+for(let i =0; i>5; i++){
+    numUsuario = Number(prompt("digite um numero"))
+    if(numUsuario <0)
+        numeros.push(numUsuario)
+}alert(`os numeros negativos sao ${numeros}`)
