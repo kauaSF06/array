@@ -1,0 +1,16 @@
+let numeros = [];
+
+for(let i = 0; i < 5; i++){
+    let numUsuario = Number(prompt(`Digite o número ${i + 1}:`));
+    numeros.push(numUsuario);
+}
+
+let pergunta = Number(prompt("Digite um número para procurar:"));
+
+let posicao = numeros.indexOf(pergunta);
+
+if(posicao !== -1){
+    alert(`Número encontrado na posição ${posicao + 1}`);
+} else {
+    alert("Número não encontrado");
+}
