@@ -1,0 +1,8 @@
+let numeros = []
+for(let i =0; i<5; i++){
+    numeros[i] = Number(prompt("digite um numero"))
+   
+} 
+if(numeros.includes(numeros[i])){
+    alert(`o numero ja existe o numero dentro do vetor`)
+}
