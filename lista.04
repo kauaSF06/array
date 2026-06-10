@@ -1,0 +1,8 @@
+let numeros = []
+let numeros2 = []
+for(let i= 0; i<5; i++){
+    numeros[i] = Number(prompt(`digite o ${i + 1} numero`))
+    if(numeros[i] % 2 == 0){
+        numeros2.push(numeros[i])
+    }
+}alert(`o primeiro vetor e ${numeros} e o vetor com os pares sao ${numeros2}`)
